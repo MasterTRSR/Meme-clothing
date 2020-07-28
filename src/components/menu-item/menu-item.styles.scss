@@ -3,7 +3,6 @@
   height: 240px;
   display: flex;
   flex: 1 1 auto;
-  height: 240px;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
@@ -25,12 +24,12 @@
   }
 
   &.large {
-    width: 380px;
+    height: 380px;
 
   }
 
   &.medium {
-    width: 280px;
+    height: 280px;
   }
 
   &:first-child{
